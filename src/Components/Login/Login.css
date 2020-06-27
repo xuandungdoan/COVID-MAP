@@ -1,0 +1,46 @@
+.email {
+    width: 100%;
+    margin-bottom: 15%;
+}
+.password {
+    width: 100%;
+
+}
+.form {
+    padding-top: 10vh;
+    width: 40%;
+    min-width: 180px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+ 
+}
+#login-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#login-icon i{
+    margin: auto;
+    background-color: rgb(49, 128, 255);
+    padding: 3px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+#btn-login {
+    font-size: 0.7rem;
+
+    padding: 5px 0;
+    text-transform: uppercase;
+    background-color: rgb(49, 128, 255);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}

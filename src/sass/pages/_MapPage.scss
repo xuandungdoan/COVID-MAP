@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #eeb41b;
+}
+
+#mapid {
+  height: 80vh;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--primary-color) !important;
+}
+
+.leaflet-popup-content button.btn.btn-danger {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+
+  &:active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+  }
+}
+
+.leaflet-pane.leaflet-marker-pane .marker-cluster-small {
+  background-color: rgba(238, 182, 27, 0.6);
+
+  div {
+    background-color: rgba(238, 182, 27, 0.6);
+  }
+}
+
+.marker-cluster span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+}
+
+.blinking {
+  animation: fade 1s infinite alternate;
+}
+
+path.leaflet-interactive {
+  fill: #aad3df;
+
+  /* stroke: #aad3df; */
+  stroke-width: 3;
+  fill-opacity: 1;
+}
+
+.filterAdminForm {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+  top: 1%;
+}
+
+.selectStatusMapPage {
+  width: 93% !important;
+}
+
+.datePickerMapPage {
+  width: 57%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+
+  border-radius: 4px;
+  box-shadow: inset 0 2px 2px #e9e9e9;
+  border: 1px solid #aeaeae;
+  padding: 0.6rem 0.75rem;
+
+  /* margin-top: 0.3rem; */
+}
+
+.page-item.active a.page-link {
+  z-index: 3;
+  color: black;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+a.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid wheat;
+  font-weight: bold;
+
+  &:hover {
+    z-index: 2;
+    color: black;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

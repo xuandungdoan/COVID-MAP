@@ -1,0 +1,46 @@
+{
+"quiz_question":[
+    {
+      "id": 1,
+      "display_type": "SCALE",
+      "text": "Bạn đánh giá thế nào về kiến thức của bạn về việc ngăn chặn covid 19",
+      "ext_data": {
+        "min_scale": 1,
+        "max_scale": 5,
+        "scale_type": "positive"
+      }
+    },
+    {
+      "id": 2,
+      "display_type": "SHORT_ANSWER",
+      "text": "Theo bạn đâu là yếu tố để giúp việt nam thắng đại dịch",
+      "ext_data": {
+        "tags": [
+          "safety",
+          "travel"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "display_type": "SCALE",
+      "text": "Nếu bạn bị nhiễm bệnh bạn nghĩ bạn sẽ bị nặng đến thế nào",
+      "ext_data": {
+        "min_scale": 1,
+        "max_scale": 6,
+        "scale_type": "positive"
+      }
+    },
+    {
+      "id": 4,
+      "display_type": "SCALE",
+      "text": "Bạn có thể tự bảo vệ bạn thân bạn khỏi virus ",
+      "ext_data": {
+        "tags": [
+          "safety",
+          "travel"
+        ]
+      }
+    }
+  ]
+}
